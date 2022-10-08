@@ -1,0 +1,15 @@
+{
+  "todos": [
+    {
+      "todo": "Todo1",
+      "status": true,
+      "id": 1665204165245
+    },
+    {
+      "todo": "Todo4",
+      "status": true,
+      "id": 1665204190716
+    }
+  ],
+  "lectures": []
+}

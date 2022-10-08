@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(222, 222, 235);
+}
+.navbar_div{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(24, 24, 82);
+    padding: 0.5rem;
+    width: 95%;
+    margin: auto;
+}
+a{
+    text-decoration-line: none;
+    color: white;
+}
+.input_div{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: .5rem;
+    width: 50%;
+    margin: auto;
+    margin-top: 5rem;
+    padding: 1rem;
+    background-color: rgb(24, 24, 82);
+}
+#todo_input{
+    width: 22rem;
+    height: 2.5rem;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: .5rem;
+    border-color: transparent;
+}
+#todoButton{
+    width: 8rem;
+    height: 2.7rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: .5rem;
+    border-color: transparent;
+    margin-left: 10px;
+    background-color: rgb(222, 222, 235);
+    color: rgb(24, 24, 82);
+    cursor: pointer;
+}
+#toggle{
+    width: 8rem;
+    height: 2.7rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: .5rem;
+    border-color: transparent;
+    margin-left: 10px;
+    background-color: rgb(24, 24, 82);
+    color: white;
+    cursor: pointer;
+}
+.alltodo_div button{
+    width: 8rem;
+    height: 2.7rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: .5rem;
+    border-color: transparent;
+    margin-left: 10px;
+    background-color: rgb(24, 24, 82);
+    color: white;
+    cursor: pointer;
+}
+.alltodo_div{
+    border: 1px solid;
+    width: 50%;
+    margin: auto;
+    margin-top: 5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgb(24, 24, 82);
+    border-radius: .5rem;
+    border-color: transparent;
+    padding: 5px;
+}
+.alltodo_div>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(222, 222, 235);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+h3{
+    color: rgb(24, 24, 82);
+    font-size: 25px;
+}

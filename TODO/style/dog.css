@@ -1,0 +1,30 @@
+#box_container {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 30%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.breed_name {
+    text-align: center;
+    color: rgb(4, 48, 57);
+}
+
+.breed_name:hover {
+    font-size: 30px;
+    cursor: pointer;
+    color: rgb(22, 110, 110);
+}
+
+#main_div>a {
+    text-align: center;
+    margin-top: 20px;
+    color: chocolate;
+    text-decoration-line: none;
+}
+
+#main_div>a:hover {
+    font-size: 21px;
+    cursor: pointer;
+}

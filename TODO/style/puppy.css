@@ -1,0 +1,48 @@
+#image_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.allImages {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.allImages>img {
+    width: 100%;
+    height: 100%;
+}
+
+#header {
+    text-align: center;
+    margin-top: 20px;
+    color: chocolate;
+    text-decoration-line: none;
+}
+
+#header:hover {
+    font-size: 21px;
+    cursor: pointer;
+}
+
+#search_page {
+    width: 35%;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+#search_page>a {
+    text-decoration-line: none;
+    color: crimson;
+}
+
+#search_page>a:hover {
+    font-size: 20px;
+    color: crimson;
+}
