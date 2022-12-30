@@ -1,0 +1,24 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "Learn Redux",
+      "status": false
+    },
+    {
+      "title": "Learn Redux-Thunk",
+      "status": false,
+      "id": 2
+    },
+    {
+      "title": "Learn React-Redux",
+      "status": false,
+      "id": 3
+    },
+    {
+      "title": "Learn Optimization",
+      "status": false,
+      "id": 4
+    }
+  ]
+}
